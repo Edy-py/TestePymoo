@@ -1,0 +1,40 @@
+
+Construction,
+    Exterior Wall,
+    Pintura,  !- Layer 1
+    ConcretoMacico10cm,  !- Layer 2
+    Pintura;  !- Layer 3
+
+Construction,
+    Exterior Floor,
+    RadierConcreto80mm,  !- Layer 1
+    ArgamassaCimento;  !- Layer 2
+
+Construction,
+    Interior Floor,
+    RadierConcreto80mm,  !- Layer 1
+    ArgamassaCimento,  !- Layer 2
+    Piso Ceramico;  !- Layer 3
+
+Construction,
+    Interior Wall,
+    ArgamassaCimento,  !- Layer 1
+    BlocoCeramico9cm,  !- Layer 2
+    ArgamassaCimento;  !- Layer 3
+
+Construction,
+    Interior Ceiling,
+    ConcretoMacico10cm;  !- Layer 1
+
+Construction,
+    Interior Window,
+    VidroSimplesincolor3mm;  !- Layer 1
+
+Construction,
+    Exterior Door,
+    Porta madeira;  !- Layer 1
+
+Construction,
+    Interior Door,
+    Porta madeira;  !- Layer 1
+
